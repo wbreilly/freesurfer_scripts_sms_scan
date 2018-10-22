@@ -1,8 +1,8 @@
 #!/bin/bash
-module load freesurfer/6.0.0
-source $FREESURFER_HOME/SetUpFreeSurfer.sh
+# module load freesurfer/6.0.0
+# source $FREESURFER_HOME/SetUpFreeSurfer.sh
 
-SUBJECTS_DIR=/home/wbreilly/halle_data_glasser_rois/
+SUBJECTS_DIR=/home/wbreilly/sms_scan_crick/freesurfer_data_10_20_18/glasser_rois_sms_scan_10_22_18
 # use to run in console
 # don't forget need the sub > label,mri, etc directory structure. Not sub > mprage > sub > label, mri etc
 # must use first and last sub "optional" arguments for some unknown reason
